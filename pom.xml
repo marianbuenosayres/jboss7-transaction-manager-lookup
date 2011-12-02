@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wordpress.marianbuenosayres</groupId>
+  <artifactId>jboss7tml</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+
+  <name>JBoss 7 TransactionManagerLookup</name>
+  <description>Creates the proper TransactionManagerLookup for JBoss 7</description>
+
+  <dependencies>
+    <!-- Internal dependencies -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>3.3.2.GA</version>
+    </dependency>
+  </dependencies>
+</project>
